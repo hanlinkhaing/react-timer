@@ -4,7 +4,7 @@
 
 @tailwind components;
 .button {
-  @apply rounded-md border-2 border-slate-700 px-10 bg-slate-500 text-slate-200 hover:text-red-500 hover:bg-slate-50;
+  @apply rounded-md px-10 bg-slate-500 text-slate-200 hover:text-red-500 hover:bg-slate-50;
 }
 
 @tailwind utilities;

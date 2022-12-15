@@ -12,8 +12,8 @@ function App() {
   const [clockStrickPlay , clockStrickFuns] = useSound(clockStrickSound);
   const [playClock, setPlayClock] = useState(false);
   const [playClockStrick, setPlayClockStrick] = useState(false);
-  const [minute, setMinute] = useState(0);
-  const [second, setSecond] = useState(10);
+  const [minute, setMinute] = useState(5);
+  const [second, setSecond] = useState(0);
   const [isStart, setIsStart] = useState(false);
   const [soundOn, setSoundOn] = useState(true);
   let timer: any = null;
